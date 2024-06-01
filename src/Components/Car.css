@@ -1,0 +1,37 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    min-width: 33.33%; /* Each item takes up a third of the container */
+    box-sizing: border-box;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  .carousel-control {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  

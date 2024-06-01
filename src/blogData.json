@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "First Blog Post",
+    "content": "Content of the first blog post goes here...",
+    "author": "John Doe",
+    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Fflower-pictures&psig=AOvVaw3rUFi5yZy2jSkIEdF6GkWJ&ust=1710415083208000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKi_6u-O8YQDFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 2,
+    "title": "Second Blog Post",
+    "content": "Content of the second blog post goes here...",
+    "author": "Jane Smith",
+    "image_url": "https://example.com/image2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Third Blog Post",
+    "content": "Content of the first blog post goes here...",
+    "author": "John Doe",
+    "image_url": "https://example.com/image3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Forth Blog Post",
+    "content": "Content of the first blog post goes here...",
+    "author": "John Doe",
+    "image_url": "https://example.com/image4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Fifth Blog Post",
+    "content": "Content of the first blog post goes here...",
+    "author": "John Doe",
+    "image_url": "https://example.com/image5.jpg"
+  }
+]

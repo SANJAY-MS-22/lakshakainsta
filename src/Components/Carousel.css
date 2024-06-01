@@ -1,0 +1,43 @@
+.carousel-container {
+    position: relative;
+    width: 300px; /* Adjust width for smaller carousel */
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 33.33%; /* Show three images at a time */
+    box-sizing: border-box;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto; /* Ensure images are scaled proportionally */
+  }
+  
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 0 10px;
+  }
+  
+  .carousel-control {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 5px; /* Adjust padding for smaller controls */
+    cursor: pointer;
+  }
+  
+  .carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
